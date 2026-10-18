@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustrated avatar">
+  <defs>
+    <linearGradient id="bgF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F6FD"/><stop offset="1" stop-color="#CFE9F8"/></linearGradient>
+    <linearGradient id="hijab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B1E86"/><stop offset="1" stop-color="#10126A"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bgF)"/>
+  <circle cx="200" cy="215" r="150" fill="#50BEED" opacity=".18"/>
+  <!-- shoulders and draped hijab -->
+  <path d="M40 500c6-92 58-150 128-170h64c70 20 122 78 128 170z" fill="#0071BC"/>
+  <path d="M200 92c-62 0-104 48-104 112 0 40 14 78 30 104-20 18-40 40-48 70 34-26 76-40 122-40s88 14 122 40c-8-30-28-52-48-70 16-26 30-64 30-104 0-64-42-112-104-112z" fill="url(#hijab)"/>
+  <!-- face -->
+  <ellipse cx="200" cy="208" rx="58" ry="70" fill="#9A6643"/>
+  <path d="M142 196c4-46 30-70 58-70s54 24 58 70c-10-30-30-46-58-46s-48 16-58 46z" fill="#10126A"/>
+  <!-- simple features -->
+  <path d="M176 204q8-6 16 0M208 204q8-6 16 0" stroke="#3B2416" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M184 242q16 12 32 0" stroke="#3B2416" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- hijab front fold -->
+  <path d="M132 300c22 22 44 34 68 34s46-12 68-34c-8 34-34 60-68 60s-60-26-68-60z" fill="#F5B31F" opacity=".9"/>
+</svg>

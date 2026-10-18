@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amea.ng/sitemap.xml

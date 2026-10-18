@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustrated avatar">
+  <defs><linearGradient id="bgM" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F6FD"/><stop offset="1" stop-color="#CFE9F8"/></linearGradient></defs>
+  <rect width="400" height="500" fill="url(#bgM)"/>
+  <circle cx="200" cy="215" r="150" fill="#50BEED" opacity=".18"/>
+  <!-- body -->
+  <path d="M40 500c6-96 62-156 132-172h56c70 16 126 76 132 172z" fill="#10126A"/>
+  <path d="M172 328l28 46 28-46" fill="#FFFFFF"/>
+  <path d="M188 340l12 20 12-20-12 90z" fill="#F5B31F"/>
+  <!-- neck and head -->
+  <rect x="176" y="270" width="48" height="64" rx="18" fill="#8A5A3B"/>
+  <ellipse cx="200" cy="200" rx="64" ry="78" fill="#9A6643"/>
+  <path d="M136 186c0-56 30-86 64-86s64 30 64 86c-10-26-34-44-64-44s-54 18-64 44z" fill="#1E1A2E"/>
+  <path d="M176 204q8-6 16 0M208 204q8-6 16 0" stroke="#3B2416" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M184 244q16 12 32 0" stroke="#3B2416" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 6.99 7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: #0071bc;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-7, .cls-8 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        opacity: .3;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Sfumatura_senza_nome_168" data-name="Sfumatura senza nome 168" x1="-.69" y1=".7" x2="4.91" y2="6.29" gradientTransform="translate(1.38 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_180" data-name="Sfumatura senza nome 180" x1="3.5" y1=".01" x2="3.5" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_188" data-name="Sfumatura senza nome 188" x1=".56" y1="3.58" x2="3.52" y2="3.58" gradientTransform="translate(1.38 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".27" stop-color="#fff" stop-opacity=".99"/>
+      <stop offset=".49" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".68" stop-color="#fff" stop-opacity=".88"/>
+      <stop offset=".86" stop-color="#fff" stop-opacity=".79"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_188-2" data-name="Sfumatura senza nome 188" x1="2.22" y1="2.82" x2="3.25" y2="2.82" xlink:href="#Sfumatura_senza_nome_188"/>
+    <linearGradient id="Sfumatura_senza_nome_188-3" data-name="Sfumatura senza nome 188" x1="2.22" y1="3.06" x2="2.8" y2="3.06" xlink:href="#Sfumatura_senza_nome_188"/>
+    <linearGradient id="Sfumatura_senza_nome_188-4" data-name="Sfumatura senza nome 188" x1="2.15" y1="2.61" x2="3.66" y2="2.61" xlink:href="#Sfumatura_senza_nome_188"/>
+  </defs>
+  <g class="cls-9">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <g>
+          <path class="cls-5" d="M3.5,0C.7,0,0,.7,0,3.5s.7,3.5,3.5,3.5,3.5-.7,3.5-3.5S6.29,0,3.5,0Z"/>
+          
+          
+          <g>
+            <path class="cls-3" d="M4.87,4.67h0c-.06.11-.14.21-.24.3h0c-.13.11-.26.15-.38.11-.47-.19-.95-.46-1.39-.92-.45-.46-.74-.98-.9-1.47l-.02-.07c-.03-.18.08-.3.39-.5h0c.11-.07.21-.04.28.02.06.04.24.28.24.28.03.05.28.35.22.5-.02.08-.16.17-.24.24h0c-.03.06-.05.1-.04.18h0c.04.21.15.39.34.57.18.18.36.28.53.32.02,0,.11.02.17-.06l.11-.15c.05-.07.19-.12.32-.05.07.04.2.12.28.19.09.06.26.22.26.22.08.07.1.18.05.29Z"/>
+            <path class="cls-2" d="M4.26,2.71c-.07-.08-.15-.14-.24-.18-.1-.04-.21-.07-.33-.08-.05,0-.08-.05-.08-.09,0-.05.04-.08.09-.08,0,0,0,0,0,0,.29.02.53.13.69.31.17.19.25.42.24.7,0,.05-.04.09-.09.09h0s-.09-.04-.09-.09c0-.23-.06-.42-.2-.57Z"/>
+            <path class="cls-1" d="M3.69,2.75s0,0,0,0c.15,0,.27.06.35.15.08.09.13.21.14.37,0,.05-.04.09-.08.09h0s0,0,0,0c-.05,0-.09-.04-.09-.08,0-.11-.03-.2-.09-.25-.05-.05-.13-.08-.23-.09-.05,0-.09-.04-.08-.09,0-.05.04-.08.09-.08Z"/>
+            <path class="cls-4" d="M4.96,3.41h0s-.09-.04-.09-.09c0-.21-.03-.4-.09-.56-.06-.16-.15-.3-.27-.42-.12-.12-.25-.21-.4-.27-.15-.06-.31-.09-.49-.09-.05,0-.09-.04-.09-.09,0-.05.04-.09.09-.09.4,0,.74.14,1.01.41.14.14.24.3.31.48.07.18.1.39.1.62,0,.05-.04.09-.09.09Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
