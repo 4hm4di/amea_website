@@ -1375,8 +1375,8 @@ html:not(.motion) .hl-track li:not(:first-child) { display: none; }
 .hero-scroll.is-scrub > .hero { position: sticky; top: var(--hero-top, 0px); }
 @media (max-width: 860px) { .hero-scroll.is-scrub { height: 230vh; } .hero-scroll.is-scrub > .hero { min-height: 100vh; min-height: 100svh; } }
 .hero--video .hero-bg { object-position: 58% 50%; }
-.hero--video .hero-video { opacity: 0; transition: opacity .5s ease, transform 2.2s cubic-bezier(.16, .84, .24, 1); background: transparent; }
-.is-video-ready .hero--video .hero-video { opacity: 1; }
+.hero--video .hero-canvas { opacity: 0; transition: opacity .5s ease, transform 2.2s cubic-bezier(.16, .84, .24, 1); background: transparent; }
+.is-video-ready .hero--video .hero-canvas { opacity: 1; }
 @media (max-width: 860px) {
   .hero--video .hero-bg { object-position: 66% 50%; }
   .hero--video::before { background: linear-gradient(180deg, rgba(10,12,79,.74) 0%, rgba(10,12,79,.5) 36%, rgba(10,12,79,.7) 58%, rgba(10,12,79,.95) 100%); }
