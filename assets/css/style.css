@@ -1368,3 +1368,63 @@ html:not(.motion) .hl-track li:not(:first-child) { display: none; }
 /* Expanding photo: the area figure counts with the scroll; fixed width so the card does not jump */
 .expand-num { display: inline-block; min-width: 3.4ch; text-align: right; font-variant-numeric: tabular-nums; }
 .expand-card b { font-size: clamp(2rem, 1.4rem + 2vw, 3rem); }
+
+/* ---------- Home hero: scroll-scrubbed film ---------- */
+.hero-scroll { position: relative; }
+.hero-scroll.is-scrub { height: 280vh; }
+.hero-scroll.is-scrub > .hero { position: sticky; top: var(--hero-top, 0px); }
+@media (max-width: 860px) { .hero-scroll.is-scrub { height: 230vh; } .hero-scroll.is-scrub > .hero { min-height: 100vh; min-height: 100svh; } }
+.hero--video .hero-bg { object-position: 58% 50%; }
+.hero--video .hero-video { opacity: 0; transition: opacity .5s ease, transform 2.2s cubic-bezier(.16, .84, .24, 1); background: transparent; }
+.is-video-ready .hero--video .hero-video { opacity: 1; }
+@media (max-width: 860px) {
+  .hero--video .hero-bg { object-position: 66% 50%; }
+  .hero--video::before { background: linear-gradient(180deg, rgba(10,12,79,.74) 0%, rgba(10,12,79,.5) 36%, rgba(10,12,79,.7) 58%, rgba(10,12,79,.95) 100%); }
+}
+
+/* ---------- Licensed and approved by: logo strip ---------- */
+.approvals { padding: 2.4rem 0 2.6rem; border-bottom: 1px solid var(--line); overflow: hidden; background: var(--white); }
+.approvals-head { text-align: center; color: var(--muted); font-weight: 700; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; margin: 0 auto 1.6rem; }
+.approvals-mask { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
+.approvals-track { display: flex; align-items: center; width: max-content; gap: clamp(3rem, 6vw, 5.5rem); list-style: none; margin: 0; padding: 0 0 0 clamp(3rem, 6vw, 5.5rem); }
+.motion .approvals-track { animation: approvals 40s linear infinite; }
+.approvals:hover .approvals-track { animation-play-state: paused; }
+@keyframes approvals { to { transform: translateX(-50%); } }
+.approvals-track li { display: inline-flex; align-items: center; gap: .9rem; }
+.approvals-track img { height: 68px; width: auto; display: block; }
+.approvals-track .lg-nsrmea img { height: 52px; }
+.approvals-track .lg-msmd img { height: 82px; }
+.approvals-track span { color: var(--ink); font-weight: 700; font-size: .92rem; line-height: 1.25; max-width: 13ch; }
+html:not(.motion) .approvals-track { width: auto; flex-wrap: wrap; justify-content: center; padding: 0 1rem; row-gap: 1.5rem; }
+html:not(.motion) .approvals-track li[aria-hidden] { display: none; }
+html:not(.motion) .approvals-mask { -webkit-mask-image: none; mask-image: none; }
+@media (max-width: 600px) { .approvals-track img { height: 54px; } .approvals-track .lg-nsrmea img { height: 42px; } .approvals-track .lg-msmd img { height: 64px; } }
+
+/* ---------- Single-colour icon set: sizing inside the existing tiles ---------- */
+.icon-tile--art svg { width: 28px; height: 28px; }
+.feature-row .icon-tile--art svg { width: 26px; height: 26px; }
+.story-block--icon .icon-tile--art svg { width: 32px; height: 32px; }
+.timeline .icon-tile--art svg { width: 32px; height: 32px; }
+
+/* Photo carousels: every card the same 4:3 frame */
+.carousel-track figure.why-card img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+
+/* Leadership cards: hover lift, photo zoom and gold rule under the name */
+.team-card { position: relative; transition: transform .5s cubic-bezier(.16, .84, .24, 1); }
+.team-card .tc-photo { position: relative; overflow: hidden; border-radius: 18px; border: 1px solid var(--line); background: #F4F5F8; transition: box-shadow .5s cubic-bezier(.16, .84, .24, 1), border-color .3s; }
+.team-card .tc-photo img { display: block; border: 0; border-radius: 0; transition: transform .7s cubic-bezier(.16, .84, .24, 1); }
+.team-card .tc-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(16, 18, 106, 0) 55%, rgba(16, 18, 106, .38) 100%); opacity: 0; transition: opacity .5s; pointer-events: none; }
+.team-card h3 { position: relative; padding-bottom: .55rem; transition: color .3s; }
+.team-card h3::after { content: ""; position: absolute; left: 0; bottom: 0; width: 28px; height: 3px; border-radius: 2px; background: var(--gold); transform: scaleX(.35); transform-origin: left; transition: transform .5s cubic-bezier(.16, .84, .24, 1); }
+@media (hover: hover) {
+  .team-card:hover { transform: translateY(-6px); }
+  .team-card:hover .tc-photo { box-shadow: 0 22px 40px -22px rgba(10, 12, 79, .45); border-color: rgba(0, 113, 188, .25); }
+  .team-card:hover .tc-photo img { transform: scale(1.06); }
+  .team-card:hover .tc-photo::after { opacity: 1; }
+  .team-card:hover h3 { color: var(--blue); }
+  .team-card:hover h3::after { transform: scaleX(1.7); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-card, .team-card .tc-photo, .team-card .tc-photo img, .team-card h3::after { transition: none; }
+  .team-card:hover, .team-card:hover .tc-photo img { transform: none; }
+}
